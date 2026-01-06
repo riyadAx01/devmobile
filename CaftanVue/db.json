@@ -1,0 +1,137 @@
+{
+    "caftans": [
+        {
+            "id": 1,
+            "name": "Traditional Moroccan Caftan - Royal Blue",
+            "description": "Exquisite hand-embroidered caftan with traditional Moroccan designs. Perfect for formal events.",
+            "imageUrl": "https://picsum.photos/400/600?random=1",
+            "price": 1500.00,
+            "collection": "Traditional",
+            "color": "Blue",
+            "size": "M",
+            "status": "available",
+            "isAvailable": true
+        },
+        {
+            "id": 2,
+            "name": "Modern Wedding Caftan - Gold",
+            "description": "Elegant gold caftan with modern cuts and embellishments. Ideal for wedding ceremonies.",
+            "imageUrl": "https://picsum.photos/400/600?random=2",
+            "price": 2500.00,
+            "collection": "Wedding",
+            "color": "Gold",
+            "size": "L",
+            "status": "available",
+            "isAvailable": true
+        },
+        {
+            "id": 3,
+            "name": "Casual Summer Caftan - White",
+            "description": "Light and comfortable white caftan for everyday wear.",
+            "imageUrl": "https://picsum.photos/400/600?random=3",
+            "price": 800.00,
+            "collection": "Casual",
+            "color": "White",
+            "size": "S",
+            "status": "available",
+            "isAvailable": true
+        },
+        {
+            "id": 4,
+            "name": "Traditional Green Caftan",
+            "description": "Beautiful emerald green caftan with silver embroidery.",
+            "imageUrl": "https://picsum.photos/400/600?random=4",
+            "price": 1800.00,
+            "collection": "Traditional",
+            "color": "Green",
+            "size": "M",
+            "status": "rented",
+            "isAvailable": false
+        },
+        {
+            "id": 5,
+            "name": "Modern Red Evening Caftan",
+            "description": "Stunning red caftan with contemporary design.",
+            "imageUrl": "https://picsum.photos/400/600?random=5",
+            "price": 2200.00,
+            "collection": "Modern",
+            "color": "Red",
+            "size": "L",
+            "status": "available",
+            "isAvailable": true
+        },
+        {
+            "id": 6,
+            "name": "Wedding Caftan - Silver",
+            "description": "Luxurious silver caftan with intricate beadwork.",
+            "imageUrl": "https://picsum.photos/400/600?random=6",
+            "price": 3000.00,
+            "collection": "Wedding",
+            "color": "Silver",
+            "size": "XL",
+            "status": "available",
+            "isAvailable": true
+        }
+    ],
+    "clients": [
+        {
+            "id": 1,
+            "name": "Fatima Hassan",
+            "email": "fatima.hassan@example.com",
+            "phone": "+212 6 12 34 56 78",
+            "address": "123 Rue Mohammed V, Casablanca, Morocco",
+            "cin": "AB123456",
+            "createdAt": "2024-01-15T10:30:00Z"
+        },
+        {
+            "id": 2,
+            "name": "Amina Benali",
+            "email": "amina.benali@example.com",
+            "phone": "+212 6 98 76 54 32",
+            "address": "45 Avenue Hassan II, Rabat, Morocco",
+            "cin": "CD789012",
+            "createdAt": "2024-02-20T14:15:00Z"
+        },
+        {
+            "id": 3,
+            "name": "Salma Alaoui",
+            "email": "salma.alaoui@example.com",
+            "phone": "+212 6 55 44 33 22",
+            "address": "78 Rue de Fes, Marrakech, Morocco",
+            "cin": "EF345678",
+            "createdAt": "2024-03-10T09:00:00Z"
+        }
+    ],
+    "reservations": [
+        {
+            "id": 1,
+            "caftanId": 1,
+            "clientId": 1,
+            "startDate": "2024-06-01",
+            "endDate": "2024-06-05",
+            "status": "confirmed",
+            "totalPrice": 1500.00,
+            "notes": "Wedding ceremony - needs alterations"
+        },
+        {
+            "id": 2,
+            "caftanId": 4,
+            "clientId": 2,
+            "startDate": "2024-05-15",
+            "endDate": "2024-05-18",
+            "status": "completed",
+            "totalPrice": 1800.00,
+            "notes": null
+        },
+        {
+            "id": 3,
+            "caftanId": 2,
+            "clientId": 3,
+            "startDate": "2024-07-10",
+            "endDate": "2024-07-15",
+            "status": "pending",
+            "totalPrice": 2500.00,
+            "notes": "Engagement party"
+        }
+    ]
+}
